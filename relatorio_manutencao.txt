@@ -7,21 +7,25 @@ e qual alteração você fez para resolver o problema.
 ----------------------------------------------------------------------------
 
 Programa 1 – Calculadora de Média
-Descrição da manutenção realizada:
-
+Descrição da manutenção realizada:O código foi ajustado para garantir que as notas sejam somadas corretamente antes 
+de dividir por 3, as entradas foram convertidas para float, e foi adicionada uma condição para quando a média for 
+exatamente 7, garantindo um comportamento esperado.
 
 
 ----------------------------------------------------------------------------
 
 Programa 2 – Contador de Números Pares
-Descrição da manutenção realizada:
+Descrição da manutenção realizada: O valor de i começa em 0, e a condição do laço é i < n. Então, o laço vai continuar até 
+que i seja igual a n.Condicional if i <= 2: Isso vai verificar se i é menor ou igual a 2, mas como a variável i é incrementada
+dentro do laço, ela pode passar de 2 e ainda continuar no laço, o que não é desejado.
 
 
 
 ----------------------------------------------------------------------------
 
 Programa 3 – Caixa Eletrônico
-Descrição da manutenção realizada:
+Descrição da manutenção realizada: a correção foi colocar as notas maiores primeiro alterando float e %.
+
 
 
 
